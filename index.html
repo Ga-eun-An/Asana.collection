@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0"/>
+
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- =======================
+       현재 웹 화면
+  ======================== -->
+  <div class="stage">
+
+    <div class="container"></div>
+
+    <!-- PDF 버튼 -->
+    <button id="download-btn">
+      Download to PDF
+    </button>
+
+  </div>
+
+
+  <!-- =======================
+       인쇄 전용 페이지
+  ======================== -->
+  <div id="print-page">
+
+    <!-- 랜덤 점선 들어갈 영역 -->
+    <div id="force-lines"></div>
+
+    <!-- 날짜 -->
+    <div class="print-date">
+      2026. 5. 23 12:34pm
+    </div>
+
+
+    <!-- DB 정보 -->
+    <div class="print-db">
+
+      <div>산스크리트어</div>
+      <div id="db-sanskrit"></div>
+
+      <div>아사나 명칭</div>
+      <div id="db-korean"></div>
+
+      <div>카테고리</div>
+      <div id="db-category"></div>
+
+      <div>언어 기원</div>
+      <div id="db-origin"></div>
+
+      <div>자세분류</div>
+      <div id="db-posture"></div>
+
+      <div>역학적분류</div>
+      <div id="db-mechanics"></div>
+
+      <div>난이도</div>
+      <div id="db-level"></div>
+
+    </div>
+
+
+
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
